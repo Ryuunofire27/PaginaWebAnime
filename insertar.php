@@ -20,4 +20,6 @@
 				('$nombre','$sinopsis','$imagen','$video','$tipo', '$genero', '$duracion', '$emitido', '$estado', '$extra')";
 	$result= mysqli_query($dbConn,$query );
 
+	mysqli_close($dbConn);
+
 ?>

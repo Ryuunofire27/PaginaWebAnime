@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../css/secondary.css">
+	<link rel="stylesheet" href="../css/anime.css">
 	<?php require_once '../informacion.php';?>
 	<title><?echo $nombre?></title>	
 </head>

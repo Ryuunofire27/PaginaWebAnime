@@ -3,7 +3,7 @@
 	require_once 'admin/config.php';
 
 	$dbConn = conectar();
-	$query = "SELECT * FROM anime WHERE id=9";
+	$query = "SELECT * FROM anime WHERE id=1";
 	$resultado=mysqli_query($dbConn,$query);
 	$row=mysqli_fetch_row($resultado);
 
