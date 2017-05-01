@@ -1,0 +1,105 @@
+
+#titulo{
+	font-size: 72px;
+	text-align: center;
+	background-color: #0174a3;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+body{
+	background-color:  white;
+	height: 1020px;
+}
+
+#anime{
+	height: 100%;
+	margin-top: 2%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 10%;
+	border-radius: 10px;
+	border-style: outset;
+	background-color: #f6f6f6;
+}
+
+.info{
+	border-radius: 8px;
+	border-color: #a0fff5;
+	border-style: outset;
+}
+
+#izquierda{
+	width: 25%;
+	height: 70%;
+	float: left;
+	margin-left:20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #faf789;
+
+}
+
+#derecha{
+	margin:5px;
+	width: 61%;
+	height: 80%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+#arriba{
+	margin: 5px;
+	padding:20px;
+	height: 40%;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: #a2a2a2;
+	border-width: 2px;
+	background-color: #faf789;
+}
+
+#abajo{
+	padding: 20px;
+	height: 30%;
+	margin:5px;
+}
+
+.sinopsis_title{
+	border-radius: 20px;
+	background-color: #ed6cff;
+	font-size:24px;
+	text-align: center;
+}
+.sinopsis{
+	height: 50%;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#imagen{
+	width: 100%;
+}
+
+.imagen{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.span_izquierda{
+	vertical-align: top;
+	font-weight: bold;
+	width: 30%;
+	display: inline-block;
+}
+
+.span_derecha{
+	vertical-align: top;
+	width: 65%;
+	display: inline-block;
+}

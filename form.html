@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/secondary.css">
+
+</head>
+<body>
+	<div id="anime">
+		<center id="titulo">Formulario llenado de anime</center>
+		<form action="insertar.php" method="post">
+			<p>
+				<label for="nombre">Nombre de anime</label><br/>
+				<input name="nombre" type="text" value="" />
+			</p>
+
+			<p>
+				<label for="password">Sinopsis</label><br/>
+				<textarea name="sinopsis" placeholder="Escribe aqui la sinopsis"></textarea>
+			</p>
+
+			<p>
+				<label for="imagen">Imagen</label><br/>
+				<input name="imagen" type="text" placeholder="Escribe aqui el url de la imagen" />
+			</p>
+
+			<p>
+				<label for="video">Video</label><br/>
+				<input name="video" type="text" placeholder="Escribe aqui el url del video " />
+			</p>
+
+			<p>
+				<label for="tipo">Tipo</label><br/>
+				<input name="tipo" type="text" placeholder="Escribe el tipo(serie,ova,ona,pelicula)" />
+			</p>
+
+			<p>
+				<label for="genero">Genero</label><br/>
+				<input name="genero" type="textarea" placeholder="Escribe los generos" />
+			</p>
+
+			<p>
+				<label for="duracion">Duracion</label><br/>
+				<input name="duracion" type="text" placeholder="Escribe la duracion" />
+			</p>
+
+			<p>
+				<label for="emitido">Fecha de emision</label><br/>
+				<input name="emitido" type="text" placeholder="Escribe la fecha de emision" />
+			</p>
+
+			<p>
+				<label for="estado">Estado del anime</label><br/>
+				<input name="estado" type="text" placeholder="Escribe el estado" />
+			</p>
+
+			<p>
+				<label for="extra">extra</label><br>
+				<input name="extra" type="text" placeholder="Escribe si tiene mas temporadas" />
+			</p>
+			<p>
+				<input name="submit" type="submit" value="enviar" style="size:auto; font-size:16px; border-bottom-width:medium" />
+			</p>
+		</form>
+	</div>
+</body>
+</html>
